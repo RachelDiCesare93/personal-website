@@ -4,16 +4,19 @@ header {
   justify-content: space-between;
 }
 
-header, section {
-    border-bottom: 2px solid black;
+header,
+section {
+  border-bottom: 2px solid black;
 }
 
-h1 ,h2 {
+h1,
+h2 {
   font-family: "Sacramento", cursive;
 }
 
-nav ,p {
-    font-family: "Alice", serif;
+nav,
+p {
+  font-family: "Alice", serif;
 }
 
 span {
@@ -43,14 +46,46 @@ section {
   padding: 10px;
 }
 
-.bio {
-    padding-bottom: 30px;
+.bio aside {
+  display: flex;
+  flex-direction: column;
 }
 
-img {
+.bio {
+   padding-bottom: 30px; 
+}
+
+.bio h2 {
+  text-align: center;
+}
+
+.bio p {
+  padding-bottom: 20px;
+}
+
+.austin {
   border-radius: 25%;
   margin-top: 15px;
   width: 100%;
+}
+
+.favorites__title {
+  text-align: center;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  padding-right: 25px;
+}
+.images img {
+  width: 100%;
+  margin: 15px;
+  border-radius: 50%;
+}
+
+span {
+  text-align: center;
 }
 
 @media only screen and (min-width: 1290px) {
@@ -78,28 +113,47 @@ img {
     margin: 15px;
   }
 
-  section {
-  display: flex;
-  flex-direction: row;
-  }
-  
-  .bio {
-      margin-right: 10px;
-      padding-left: 10px;
-  }
-  h2 {
+  .bio__title {
     margin-top: 20px;
     text-align: center;
   }
 
-  p {
-      padding-left: 25px;
+  .bio {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    padding-left: 10px;
   }
 
-  img {
+  p {
+    padding-left: 25px;
+    margin-bottom: 25px;
+  }
+   /* austin image */
+  
+   .austin {
     border-radius: 25%;
     padding-left: 25px;
     width: 700px;
     margin: 0 auto;
+  }
+  .favorites {
+    display: flex;
+  }
+  .favorites__title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 10px;
+  }
+  .images img {
+    width: 400px;
+    margin: 15px;
+    border-radius: 50%;
   }
 }
