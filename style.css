@@ -1,0 +1,105 @@
+header {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+}
+
+header, section {
+    border-bottom: 2px solid black;
+}
+
+h1 ,h2 {
+  font-family: "Sacramento", cursive;
+}
+
+nav ,p {
+    font-family: "Alice", serif;
+}
+
+span {
+  margin: 15px;
+}
+
+nav {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin: 15px;
+}
+
+a:hover {
+  color: slategray;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.bio {
+    padding-bottom: 30px;
+}
+
+img {
+  border-radius: 25%;
+  margin-top: 15px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 1290px) {
+  header {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+  }
+
+  span {
+    margin: 15px;
+  }
+
+  nav {
+    margin: 15px;
+    font-family: "Alice", serif;
+    display: flex;
+    flex-direction: row;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+  }
+
+  section {
+  display: flex;
+  flex-direction: row;
+  }
+  
+  .bio {
+      margin-right: 10px;
+      padding-left: 10px;
+  }
+  h2 {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  p {
+      padding-left: 25px;
+  }
+
+  img {
+    border-radius: 25%;
+    padding-left: 25px;
+    width: 700px;
+    margin: 0 auto;
+  }
+}
