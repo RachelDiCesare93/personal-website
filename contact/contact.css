@@ -1,0 +1,86 @@
+header {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+}
+
+header,
+section {
+  border-bottom: 2px solid black;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+}
+
+span {
+  margin: 15px;
+}
+
+nav,
+p,
+label,
+button {
+  font-family: "Alice", serif;
+}
+
+nav {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin: 15px;
+}
+
+a:hover {
+  color: slategray;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea,
+button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+label {
+  display: inline-block;
+  width: 160px;
+  text-align: right;
+}
+
+input {
+  width: 250px;
+}
+
+textarea {
+  width: 300px;
+  height: 100px;
+}
+
+button {
+  width: 85px;
+  background-color: black;
+  color: white;
+}
+
+button:hover {
+  background-color: whitesmoke;
+  color: slategray;
+}

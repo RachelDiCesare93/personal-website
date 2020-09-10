@@ -10,7 +10,8 @@ section {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: "Sacramento", cursive;
 }
 
@@ -52,7 +53,7 @@ section {
 }
 
 .bio {
-   padding-bottom: 30px; 
+  padding-bottom: 30px;
 }
 
 .bio h2 {
@@ -88,15 +89,27 @@ span {
   text-align: center;
 }
 
-@media only screen and (min-width: 1290px) {
-  header {
-    background-color: whitesmoke;
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 2px solid black;
-  }
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
-  span {
+.info , .resources ,.social {
+  display: flex;
+  flex-direction: column;
+}
+
+.copyright {
+  text-align: center;
+}
+
+/* Desktop */
+
+
+@media only screen and (min-width: 999px) {
+
+ span {
     margin: 15px;
   }
 
@@ -129,9 +142,9 @@ span {
     padding-left: 25px;
     margin-bottom: 25px;
   }
-   /* austin image */
-  
-   .austin {
+  /* austin image */
+
+  .austin {
     border-radius: 25%;
     padding-left: 25px;
     width: 700px;
@@ -156,4 +169,10 @@ span {
     margin: 15px;
     border-radius: 50%;
   }
+
+  .footer {
+    justify-content: space-evenly;
+  }
+
+ 
 }
