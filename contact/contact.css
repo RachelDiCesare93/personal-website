@@ -84,3 +84,30 @@ button:hover {
   background-color: whitesmoke;
   color: slategray;
 }
+
+@media only screen and (min-width: 999px) {
+
+    span {
+       margin: 15px;
+     }
+   
+     nav {
+       margin: 15px;
+       font-family: "Alice", serif;
+       display: flex;
+       flex-direction: row;
+     }
+   
+     a {
+       text-decoration: none;
+       color: black;
+       margin: 15px;
+     }
+
+     label {
+        display: inline-block;
+        width: 525px;
+        text-align: right;
+      }
+
+}
