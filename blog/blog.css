@@ -1,0 +1,84 @@
+header {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  border-bottom: 2px solid black;
+}
+
+h1,
+h2 {
+  font-family: "Sacramento", cursive;
+}
+
+nav,
+p {
+  font-family: "Alice", serif;
+}
+
+span {
+  margin: 15px;
+}
+
+nav {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin: 15px;
+}
+
+a:hover {
+  color: slategray;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  padding: 50px;
+}
+
+img {
+  border-radius: 25%;
+  width: 100%;
+}
+
+p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 999px) {
+  span {
+    margin: 15px;
+  }
+
+  nav {
+    margin: 15px;
+    font-family: "Alice", serif;
+    display: flex;
+    flex-direction: row;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+  }
+  h2 {
+    text-align: center;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+  }
+}

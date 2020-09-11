@@ -70,29 +70,17 @@ section {
   width: 100%;
 }
 
-.favorites__title {
-  text-align: center;
-}
 
-.images {
-  display: flex;
-  flex-direction: column;
-  padding-right: 25px;
-}
-.images img {
-  width: 100%;
-  margin: 15px;
-  border-radius: 50%;
-}
 
 span {
   text-align: center;
 }
 
-.footer {
+footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 15px;
 }
 
 .info , .resources ,.social {
@@ -101,6 +89,7 @@ span {
 }
 
 .copyright {
+  padding-bottom: 15px;
   text-align: center;
 }
 
@@ -150,29 +139,9 @@ span {
     width: 700px;
     margin: 0 auto;
   }
-  .favorites {
-    display: flex;
-  }
-  .favorites__title {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  .images {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-left: 10px;
-  }
-  .images img {
-    width: 400px;
-    margin: 15px;
-    border-radius: 50%;
-  }
-
-  .footer {
+  
+  footer {
     justify-content: space-evenly;
   }
 
- 
-}
+ }
